@@ -109,7 +109,7 @@ let output1: string = "";
 let output2: string = "";
 let output3: string = "";
 let output4: string = "";
-let triangle = function (input: number) {
+let thisTriangle = function (input: number) {
   for (let i = 0; i < input; i++) {
     for (let j = i; j < input; j++) {
       output1 += "* ";
@@ -147,7 +147,7 @@ let triangle = function (input: number) {
   let allOut = output1 + "\n" + output2 + "\n" + output3 + "\n" + output4;
   return allOut;
 };
-console.log(triangle(5));
+console.log(thisTriangle(5));
 
 /*
  ________*
